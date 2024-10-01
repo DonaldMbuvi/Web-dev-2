@@ -1,0 +1,82 @@
+/* About Us Section */
+.about-us {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+    font-size: 28px;
+    margin-top: 20px;
+    color: #2980b9;
+}
+
+.about-us p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+}
+
+.about-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-us ul li {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+}
+
+.about-us ul li strong {
+    color: #000;
+}
+
+/* Customer Form Section */
+.customer-form {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customer-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.customer-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.customer-form input[type="text"],
+.customer-form input[type="email"],
+.customer-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.customer-form input[type="submit"] {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.customer-form input[type="submit"]:hover {
+    background-color: #1f6ea5;
+}
